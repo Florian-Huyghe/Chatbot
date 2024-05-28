@@ -4,8 +4,6 @@ const chatbox = document.getElementById('chatbox');
 
 sendButton.addEventListener('click', sendMessage);
 
-
-console.log(sendButton)
     function getResponse(input) {
         for (let i = 0; i < pairs.length; i++) {
             const regex = new RegExp(pairs[i][0], 'i');
