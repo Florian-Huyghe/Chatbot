@@ -3,9 +3,16 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     height: 100vh;
     background-color: #f4f4f9;
+}
+
+h1{
+    font-size: 3rem;
+    color: gray;
 }
 
 #chatContainer {
